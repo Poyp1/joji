@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #000000, #410b30 50%, #000000); 
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px; 
+        }
+
+        .gallery-item {
+            box-sizing: border-box;
+            width: calc(30% - 20px); 
+            margin: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .video-box {
+            position: relative;
+            padding-bottom: 75%; 
+            border: 6px solid rgb(248, 49, 188); 
+        }
+
+        .video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        @media screen and (max-width: 767px) {
+            
+            .gallery-item {
+                width: calc(80% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="gallery">
+    
+    <div class="gallery-item">
+        <div class="video-box">
+            <iframe class="video" src="shomaira.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <div class="video-box">
+            <iframe class="video" src="pool.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <div class="video-box">
+            <iframe class="video" src="zei1.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <div class="video-box">
+            <iframe class="video" src="zei2.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <div class="video-box">
+            <iframe class="video" src="zei3.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <div class="video-box">
+            <iframe class="video" src="zei4.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <div class="video-box">
+            <iframe class="video" src="zei5.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <div class="video-box">
+            <iframe class="video" src="zei6.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <div class="video-box">
+            <iframe class="video" src="zei7.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <div class="video-box">
+            <iframe class="video" src="zei8.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+
+</div>
+
+</body>
+</html>
